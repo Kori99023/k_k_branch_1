@@ -1,3 +1,12 @@
 basic.forever(function () {
-	
+    basic.showString("say my name!!")
+    basic.pause(500)
+    basic.showString("say my name!!")
+    basic.pause(500)
+    basic.showString("say my name!!")
+    basic.pause(500)
+    basic.clearScreen()
+    basic.showIcon(IconNames.Sad)
+    basic.clearScreen()
+    basic.showIcon(IconNames.Happy)
 })
